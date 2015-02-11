@@ -1,0 +1,186 @@
+img, embed, object, video {
+	max-width: 100%
+} 
+
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	color: #d9204a;
+	font-weight: bold;
+	margin-top: 60px;
+}
+
+.active {
+	background-color: ;
+	border-radius: 5px;
+	padding: 10px 30px 10px 30px;
+}
+
+.main-nav {
+	margin-top: 35px;
+}
+
+.main-nav a{
+	color: #8C8C8C;
+	font-family: 'Montserrat', sans-serif;
+	font-style: italic;
+	font-size: 16px;
+}
+
+.main-nav li {
+	margin-right: 30px; 
+}
+
+.welcome {
+	background-color: black;
+	border-radius: 5px;
+	margin: -300px 0px 0px 0px;
+	padding: 17px 0px 36px 0px;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.welcome-background {
+	background-image: url("images/beach2.jpg");
+	margin-top: 60px;
+	min-height: 413px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center; 
+}
+
+.services {
+	margin: 20px 0px 20px 0px;
+	padding: 50px 0px 50px 0px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.services h4{
+	font-size: 24px;
+}
+
+.services p {
+	color: #B5B5B5;
+	font-size: 16px;
+}
+
+.contact {
+	background: #d9204a;
+	border-radius: 5px;
+	padding: 10px 30px 10px 30px;
+	margin-bottom: 60px;
+}
+
+.contact a {
+		color: white;
+}
+
+/*.shadow {
+	box-shadow: 0px 50px 0px 0px #f0f0f0;
+}*/
+
+.fa-coffee {
+	background: #B5B5B5;
+	padding: 30px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+
+.fa-female {
+	background: #B5B5B5;
+	padding: 30px 40px 30px 40px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+
+.fa-camera-retro {
+	background: #B5B5B5;
+	padding: 30px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+
+.grey-background {
+	background-color: #f7f7f7;
+}
+
+.grey-background-border {
+	background-color: #f7f7f7;
+	border-top-style: solid;
+	border-top-color: #d5d5d5;
+	border-top-width: 2px;
+}
+
+.my-portfolio {
+	margin: 60px 0 60px 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+/* Change the one and three to .project-one and .project-three and then change in HTML. 
+   Change .project to .project-two and just add left and right padding. 
+   Pictures?
+*/
+.project {
+	background-color: white;
+	font-family: 'Montserrat', sans-serif;
+	padding-bottom: 50px;
+	border-right-color: #f7f7f7;
+	border-right-style: solid;
+	border-left-color: #f7f7f7;
+	border-left-style: solid;
+	border-right-width: 10px;
+	border-left-width:10px;
+	border-bottom-color: #f7f7f7;
+	border-bottom-style: solid;
+	border-bottom-width: 30px;
+}
+
+.one {
+	border-left-width: 30px;
+	border-left-color: #f7f7f7;
+	border-left-style: solid;
+}
+
+.three {
+	border-right-width: 30px;
+	border-right-color: #f7f7f7;
+	border-right-style: solid;
+}
+
+.project h5 {
+	font-size: 18px;
+}
+
+.project a {
+	background-color: black;
+	color: white;
+	border-radius: 5px;
+	padding: 15px;
+	margin: 20px 0px 20px 0px;
+}
+
+.project p {
+	color: #B5B5B5;
+	padding: 20px 0px 20px 0px;
+}
+
+.footer {
+	background-color: black;
+	padding: 30px 0px 30px 15px;
+}
+
+.footer h5 {
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 22px;
+	padding-bottom: 20px;
+}
+
+.footer a {
+	color: #8C8C8C;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.footer p {
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+}
