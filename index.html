@@ -22,8 +22,7 @@
 						</ul>		
 					</nav>
 				</div>			
-			</div>		
-/* how do i do the divs with the background image and the background color black with the words?			
+			</div>					
 			<div class="row">
 				<div class="col-md-12 welcome-background" style="height: 441px;"></div>
 				<div class="col-md-3"></div>
@@ -37,12 +36,12 @@
 			</div>	
 
 			<div class="row services">
-				<div class="col-md-4 text-center shawdow">
+				<div class="col-md-4 text-center">
 					<i class="fa fa-camera-retro fa-5x"></i>
 					<h4>Responsive</h4>
 					<p>We offer mobile first, responsive designs on all our websites.</p>
 				</div>
-				<div class="col-md-4 text-center">
+				<div class="col-md-4 text-center shadow">
 					<i class="fa fa-female fa-5x"></i>
 					<h4>Performant</h4>
 					<p>Your users won't wait for your page to load. We make sure they don't have to.</p>
@@ -66,23 +65,38 @@
 				</div>	
 			</div>
 			<div class="row grey-background">
-				<div class="col-md-4 project one">
-					<img src="">	
-					<h5>Project One</h5>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore orem ipsum dolor sit amet consectetur adipiscing elit.</p>
-					<a href="">Find out more</a>
+				<div class="col-md-4 project">
+					<img srcset="images/wedding-beach-1024.jpg 1024w,
+						images/kenz-big-bend-300.jpg 300w"
+						src="images/wedding-beach-300.jpg"
+						alt="folly beach"/>
+					<div class="projectdes">		
+						<h5>Wedding Website</h5>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore orem ipsum dolor sit amet consectetur adipiscing elit.</p>
+						<a href="">Find out more</a>
+					</div>
 				</div>
-				<div class="col-md-4 project two">
-					<img src="">	
-					<h5>Project Two</h5>
-					<p>bDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
-					<a href="">Find out more</a>
+				<div class="col-md-4 project">
+					<img srcset="images/la-jolla-1024.jpg 1024w,
+						images/la-jolla-300.jpg 300w"
+						src="images/la-jolla-300.jpg"
+						alt="la jolla"/>
+					<div class="projectdes">	
+						<h5>Project Two</h5>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore orem ipsum dolor sit amet consectetur adipiscing elit.</p>
+						<a href="">Find out more</a>
+					</div>	
 				</div>
-				<div class="col-md-4 project three">
-					<img src="">	
-					<h5>Project Three</h5>
-					<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi</p>
-					<a href="">Find out more</a>
+				<div class="col-md-4 project">
+					<img srcset="images/cville-clouds-1024.jpg 1024w,
+						images/cville-clouds-300.jpg 300w"
+						src="images/cville-clouds-300.jpg"
+						alt="clouds"/>	
+					<div class="projectdes">
+						<h5>Project Three</h5>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore orem ipsum dolor sit amet consectetur adipiscing elit.</p>
+						<a href="">Find out more</a>
+					</div>	
 				</div>
 			</div>
 			<div class="row grey-background">
@@ -92,18 +106,32 @@
 			</div>
 			<div class="row grey-background">
 				<div class="col-md-6 project">
-					<img src="">
-					<h5>This is going to be one of my blog posts</h5>
-					<p>May 23, 2015</p>
-					<p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur </p>
-					<a href="">Continue reading...</a>
+					<picture>
+						<source 
+							media="(min-width: 650px)"
+							srcset="images/kenz-ernst-tinaja-1024.jpg">
+						<source media="(min-width: 465px)" srcset="images/kenz-ernst-tinaja-300.jpg">
+						<img srcset="" alt="Mackenzie Ernst Tinaja"/>
+					</picture>
+					<div class="projectdes">
+						<h5>This is going to be one of my blog posts</h5>
+						<p>May 23, 2015</p>
+						<p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur </p>
+						<a href="">Continue reading...</a>
+					</div>
 				</div>
 				<div class="col-md-6 project">
-					<img src="">
-					<h5>This is going to be another of my blog posts</h5>
-					<p>May 24, 2015</p>
-					<p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur </p>
-					<a href="">Continue reading...</a>
+					<picture>
+						<source media="(min-width: 650px)" srcset="images/friends-vail-1024.jpg">
+						<source media="(min-width: 465px)" srcset="images/friends-vail-300.jpg">
+						<img srcset="" alt="Friends in Vail"/>
+					</picture>
+					<div class="projectdes">
+						<h5>This is going to be another of my blog posts</h5>
+						<p>May 24, 2015</p>
+						<p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur </p>
+						<a href="">Continue reading...</a>
+					</div>
 				</div>
 			</div>	
 			<div class="row footer">
