@@ -1,3 +1,48 @@
+img, embed, object, video {
+	max-width: 100%
+} 
+
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	color: #d9204a;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+.active {
+	background-color: ;
+	border-radius: 5px;
+	padding: 10px 30px 10px 30px;
+}
+
+.main-nav a{
+	color: #8C8C8C;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+}
+
+.main-nav li {
+	margin-right: 30px; 
+}
+
+.welcome {
+	background-color: black;
+	border-radius: 5px;
+	margin: -325px 0px 0px 0px;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.welcome h2 {
+	padding-top: 50px; 
+}
+
+.welcome h3 {
+	font-size: 16px;
+	padding: 10px 10px 50px 10px;
+	margin: 0;
+}
+
 .welcome-background {
 	background-image: url("images/desk-1024x300.jpg");
 	min-height: 413px;
